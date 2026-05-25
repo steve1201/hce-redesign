@@ -207,7 +207,7 @@ img {
   align-items: center;
   margin: 0 0 0.8rem;
   color: var(--gold);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 900;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -414,7 +414,7 @@ h3 {
 
 .trust-card span {
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -526,7 +526,7 @@ h3 {
   display: inline-block;
   margin-bottom: 0.6rem;
   color: var(--blue);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -579,7 +579,7 @@ h3 {
   color: var(--ink);
   background: var(--gold);
   border-radius: 999px;
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 950;
   text-transform: uppercase;
 }
@@ -840,7 +840,7 @@ figcaption {
   display: inline-block;
   margin-bottom: 0.75rem;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 950;
   text-transform: uppercase;
 }
@@ -947,7 +947,7 @@ figcaption {
   display: inline-block;
   margin-bottom: 0.7rem;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 950;
   text-transform: uppercase;
 }
@@ -1075,7 +1075,7 @@ figcaption {
   display: inline-block;
   margin-bottom: 0.7rem;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 950;
   text-transform: uppercase;
 }
@@ -1227,7 +1227,7 @@ figcaption {
   display: inline-block;
   margin-bottom: 1rem;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 950;
   text-transform: uppercase;
 }
@@ -1404,7 +1404,7 @@ figcaption {
   display: inline-block;
   margin-bottom: 0.75rem;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -1508,7 +1508,7 @@ figcaption {
   display: block;
   margin-bottom: 1rem;
   color: var(--green);
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -1548,7 +1548,7 @@ figcaption {
     justify-content: center;
     gap: 0.85rem;
     padding-block: 0.26rem;
-    font-size: 0.78rem;
+    font-size: 0.84rem;
   }
 
   .nav-shell {
