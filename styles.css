@@ -1165,6 +1165,96 @@ figcaption {
   margin-top: 0;
 }
 
+.job-detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: end;
+}
+
+.job-summary-card,
+.job-detail-panel {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 10px 34px rgba(16, 32, 39, 0.045);
+}
+
+.job-summary-card span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.job-summary-card dl {
+  display: grid;
+  gap: 0.95rem;
+  margin: 0;
+}
+
+.job-summary-card div {
+  padding-bottom: 0.95rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.job-summary-card div:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.job-summary-card dt {
+  margin-bottom: 0.22rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.job-summary-card dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 850;
+  line-height: 1.45;
+}
+
+.job-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.62fr);
+  gap: 1rem;
+}
+
+.job-detail-panel p:not(.eyebrow),
+.job-content-section li,
+.contact-band p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.benefit-list.compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.benefit-list.compact span {
+  min-height: 52px;
+}
+
+.job-list-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.25rem, 3vw, 2rem);
+}
+
+.job-list-columns ul {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
 .pledge-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(300px, 460px);
@@ -1485,7 +1575,9 @@ figcaption {
   .credibility-strip,
   .contact-hero,
   .jobs-hero,
+  .job-detail-hero,
   .benefits-section,
+  .job-detail-grid,
   .opening-card,
   .pledge-hero,
   .service-hero,
@@ -1513,6 +1605,7 @@ figcaption {
   .news-grid,
   .contact-grid,
   .pathway-grid,
+  .job-list-columns,
   .service-process > div {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1658,6 +1751,8 @@ figcaption {
   .story-card,
   .route-card,
   .jobs-hero-card,
+  .job-summary-card,
+  .job-detail-panel,
   .pathway-grid article,
   .opening-card,
   .fraud-notice,
@@ -1702,6 +1797,7 @@ figcaption {
   .contact-grid,
   .pathway-grid,
   .benefit-list,
+  .job-list-columns,
   .service-process > div {
     grid-template-columns: 1fr;
   }
