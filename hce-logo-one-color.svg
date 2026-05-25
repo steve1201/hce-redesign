@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Hudson Community Enterprises one-color logo</title>
+  <desc id="desc">One-color dark green HCE logo for print and single-color use.</desc>
+  <defs><style>.word { font-family: Manrope, Inter, Avenir Next, Helvetica Neue, Arial, sans-serif; font-weight: 400; }</style></defs>
+  <g fill="#0a4e42">
+    <rect x="34" y="48" width="27" height="124" rx="3" />
+    <rect x="128" y="48" width="27" height="124" rx="3" />
+    <path d="M58 145c20-21 42-28 66-22 10 3 20 2 30-3 8-4 15 6 9 14-10 15-31 22-58 20-20-1-37 6-53 19-7 6-17-3-12-12 4-6 10-12 18-16z" />
+    <path d="M82 110c-22-24-8-48 29-57 4 34-9 56-29 57z" />
+    <path d="M105 112c3-27 24-42 58-39-8 33-31 49-58 39z" />
+    <circle cx="98" cy="71" r="9.5" />
+    <path d="M212 47c34 0 60 14 77 38l-22 17c-12-17-30-27-55-27-38 0-64 27-64 62s26 62 64 62c25 0 44-10 57-28l22 17c-18 25-45 39-80 39-55 0-96-39-96-90s41-90 97-90z" />
+    <path d="M317 50h104v27h-74v44h66v26h-66v50h78v27H317z" />
+    <rect x="458" y="63" width="2.5" height="116" rx="1.25" />
+    <text class="word" x="490" y="88" font-size="41">Hudson</text>
+    <text class="word" x="490" y="136" font-size="41">Community</text>
+    <text class="word" x="490" y="184" font-size="41">Enterprises</text>
+  </g>
+</svg>

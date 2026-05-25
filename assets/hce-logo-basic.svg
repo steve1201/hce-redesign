@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" role="img" aria-labelledby="title desc">
+  <title id="title">Hudson Community Enterprises</title>
+  <desc id="desc">Basic vector logo for Hudson Community Enterprises with HCE mark and stacked wordmark.</desc>
+  <defs>
+    <linearGradient id="hceDeepGreen" x1="0" x2="360" y1="0" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b5a44" />
+      <stop offset="1" stop-color="#063f35" />
+    </linearGradient>
+    <style>
+      .wordmark {
+        font-family: Manrope, Inter, Avenir Next, Helvetica Neue, Arial, sans-serif;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+
+  <g aria-hidden="true">
+    <rect x="6" y="12" width="28" height="138" rx="1" fill="url(#hceDeepGreen)" />
+    <rect x="112" y="12" width="28" height="138" rx="1" fill="url(#hceDeepGreen)" />
+
+    <path
+      d="M213 9c35 0 65 14 86 37l-24 24c-15-16-35-25-61-25-40 0-70 29-70 70s30 70 70 70c27 0 48-10 63-28l25 23c-21 25-52 41-89 41-61 0-108-45-108-106S152 9 213 9z"
+      fill="url(#hceDeepGreen)"
+      transform="scale(.82) translate(88 0)"
+    />
+    <path
+      d="M300 16h118v30h-84v47h75v29h-75v55h89v30H300z"
+      fill="url(#hceDeepGreen)"
+      transform="scale(.82) translate(112 0)"
+    />
+
+    <path
+      d="M26 121c20-20 42-27 66-21 11 3 21 2 32-3 8-4 16 6 10 15-10 15-32 23-59 20-19-2-36 4-51 17-6 5-15-2-11-10 3-7 8-13 13-18z"
+      fill="#fff"
+    />
+    <path
+      d="M24 122c20-20 43-28 67-22 8 2 16 2 24 0-8 9-24 14-45 13-16-1-31 4-45 14z"
+      fill="#0b5a44"
+    />
+    <path d="M55 91c-20-20-7-43 27-50 4 31-8 49-27 50z" fill="#77b82a" />
+    <path d="M78 94c2-25 22-38 52-35-8 30-28 44-52 35z" fill="#77b82a" />
+    <circle cx="74" cy="52" r="9" fill="#f0b547" />
+
+    <rect x="354" y="21" width="2" height="128" rx="1" fill="#7d8d86" />
+  </g>
+
+  <g class="wordmark" fill="#102027">
+    <text x="384" y="48" font-size="41">Hudson</text>
+    <text x="384" y="93" font-size="41">Community</text>
+    <text x="384" y="138" font-size="41">Enterprises</text>
+  </g>
+</svg>

@@ -764,8 +764,8 @@ figcaption {
   width: 300px;
   max-height: none;
   margin-bottom: 1rem;
-  background: var(--surface);
-  border-radius: 6px;
+  background: transparent;
+  border-radius: 0;
   object-fit: contain;
 }
 
@@ -1347,6 +1347,65 @@ figcaption {
   font-weight: 500;
 }
 
+.logo-kit {
+  background: var(--paper);
+  min-height: 100vh;
+}
+
+.logo-kit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.logo-kit-grid article,
+.logo-board-preview {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 10px 34px rgba(16, 32, 39, 0.045);
+}
+
+.logo-kit-grid span {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.logo-kit-grid img {
+  width: 100%;
+  min-height: 160px;
+  object-fit: contain;
+}
+
+.logo-kit-grid .logo-mark-preview {
+  max-height: 190px;
+}
+
+.logo-kit-grid a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--green-dark);
+  font-weight: 800;
+}
+
+.dark-preview {
+  background: var(--green-dark) !important;
+}
+
+.dark-preview span,
+.dark-preview a {
+  color: var(--gold);
+}
+
+.logo-board-preview img {
+  width: 100%;
+}
+
 @media (max-width: 920px) {
   .utility-bar {
     justify-content: center;
@@ -1445,6 +1504,7 @@ figcaption {
   .service-grid,
   .credibility-grid,
   .quote-section,
+  .logo-kit-grid,
   .about-overview,
   .story-grid,
   .pledge-layout,
@@ -1632,6 +1692,7 @@ figcaption {
   .service-grid,
   .credibility-grid,
   .quote-section,
+  .logo-kit-grid,
   .about-overview,
   .story-grid,
   .pledge-layout,

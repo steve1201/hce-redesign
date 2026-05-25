@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Hudson Community Enterprises logo system</title>
+  <desc id="desc">Brand board showing primary, compact, one-color, and reverse HCE logo versions.</desc>
+  <rect width="1200" height="760" fill="#f8faf7" />
+  <text x="600" y="62" text-anchor="middle" font-family="Manrope, Inter, Arial, sans-serif" font-size="23" letter-spacing="10" fill="#102027">HUDSON COMMUNITY ENTERPRISES</text>
+  <text x="600" y="102" text-anchor="middle" font-family="Manrope, Inter, Arial, sans-serif" font-size="26" letter-spacing="8" fill="#0a4e42">LOGO SYSTEM</text>
+  <line x1="70" x2="1130" y1="135" y2="135" stroke="#c9d5cd" />
+  <text x="80" y="180" font-family="Manrope, Inter, Arial, sans-serif" font-size="18" fill="#102027">1  Primary horizontal lockup</text>
+  <image href="hce-logo-primary.svg" x="70" y="210" width="520" height="150" />
+  <text x="680" y="180" font-family="Manrope, Inter, Arial, sans-serif" font-size="18" fill="#102027">2  Compact H mark</text>
+  <image href="hce-mark-icon.svg" x="775" y="210" width="170" height="170" />
+  <line x1="70" x2="1130" y1="420" y2="420" stroke="#c9d5cd" />
+  <text x="80" y="465" font-family="Manrope, Inter, Arial, sans-serif" font-size="18" fill="#102027">3  One-color version</text>
+  <image href="hce-logo-one-color.svg" x="70" y="495" width="520" height="150" />
+  <text x="680" y="465" font-family="Manrope, Inter, Arial, sans-serif" font-size="18" fill="#102027">4  Reverse version</text>
+  <image href="hce-logo-reverse.svg" x="680" y="495" width="420" height="122" />
+  <g font-family="Manrope, Inter, Arial, sans-serif" font-size="16" fill="#102027">
+    <circle cx="410" cy="700" r="16" fill="#0a4e42" /><text x="438" y="706">#0a4e42</text>
+    <circle cx="555" cy="700" r="16" fill="#77b82a" /><text x="583" y="706">#77b82a</text>
+    <circle cx="700" cy="700" r="16" fill="#f0b547" /><text x="728" y="706">#f0b547</text>
+    <circle cx="845" cy="700" r="16" fill="#102027" /><text x="873" y="706">#102027</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">Hudson Community Enterprises reverse logo</title>
+  <desc id="desc">White HCE logo for dark green backgrounds.</desc>
+  <defs><style>.word { font-family: Manrope, Inter, Avenir Next, Helvetica Neue, Arial, sans-serif; font-weight: 400; }</style></defs>
+  <rect width="760" height="220" rx="18" fill="#0a4e42" />
+  <g fill="#fff">
+    <rect x="48" y="55" width="25" height="110" rx="3" />
+    <rect x="126" y="55" width="25" height="110" rx="3" />
+    <path d="M69 142c18-18 38-24 59-19 9 2 18 1 27-3 7-3 13 5 8 12-9 13-28 20-51 18-17-1-32 5-46 16-6 5-15-2-11-10 4-6 8-10 14-14z" />
+    <path d="M91 112c-19-21-7-41 25-49 3 30-8 48-25 49z" />
+    <path d="M111 114c3-23 21-36 49-34-7 29-26 42-49 34z" />
+    <circle cx="105" cy="80" r="8" />
+    <path d="M210 55c31 0 55 12 71 34l-21 16c-11-15-27-24-50-24-34 0-58 25-58 57s24 57 58 57c23 0 40-9 52-25l21 16c-17 22-42 35-74 35-50 0-88-36-88-83s38-83 89-83z" />
+    <path d="M306 58h97v25h-69v39h61v24h-61v44h73v25H306z" />
+    <rect x="440" y="70" width="2.5" height="94" rx="1.25" />
+    <text class="word" x="468" y="92" font-size="34">Hudson</text>
+    <text class="word" x="468" y="132" font-size="34">Community</text>
+    <text class="word" x="468" y="172" font-size="34">Enterprises</text>
+  </g>
+</svg>
