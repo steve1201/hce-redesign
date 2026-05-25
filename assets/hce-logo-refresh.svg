@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 200" role="img" aria-labelledby="title desc">
+  <title id="title">Hudson Community Enterprises</title>
+  <desc id="desc">A refreshed Hudson Community Enterprises logo with HCE lettering, a hand and leaf symbol, and a modern wordmark.</desc>
+  <defs>
+    <linearGradient id="deepGreen" x1="0" x2="470" y1="0" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14795c" />
+      <stop offset="1" stop-color="#073f36" />
+    </linearGradient>
+  </defs>
+  <g aria-hidden="true">
+    <path fill="url(#deepGreen)" d="M26 25h36v130H26zM112 25h36v130h-36z" />
+    <path
+      fill="#fff"
+      d="M35 111c23-20 46-25 70-18 12 4 25 3 38-3 9-4 17 7 11 16-10 16-33 24-62 21-18-2-37 5-54 18-6 5-15-1-15-10 0-9 4-17 12-24z"
+    />
+    <path
+      fill="#77b82a"
+      d="M72 84C50 62 64 39 98 32c4 32-7 51-26 52zM100 91c0-27 20-41 52-40-8 32-27 47-52 40z"
+    />
+    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5.5" d="M84 88c9-11 23-18 41-22" />
+    <path
+      fill="url(#deepGreen)"
+      d="M220 22c39 0 68 17 84 44l-31 18c-10-17-27-27-52-27-36 0-61 27-61 63s25 63 61 63c25 0 43-10 53-27l31 18c-16 27-46 44-85 44-58 0-101-42-101-98s43-98 101-98z"
+    />
+    <path fill="url(#deepGreen)" d="M326 25h118v34h-79v41h70v33h-70v49h83v34H326z" />
+    <path fill="#77b82a" d="M392 216 477 56c15 26 8 58-17 81l-68 79z" transform="translate(0 -36)" />
+    <circle cx="476" cy="54" r="14" fill="#f0b547" />
+    <rect x="522" y="36" width="3" height="116" rx="1.5" fill="#14795c" />
+  </g>
+  <g fill="#102027" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-weight="800">
+    <text x="555" y="70" fill="#0a4e42" font-size="42">Hudson</text>
+    <text x="555" y="118" font-size="42">Community</text>
+    <text x="555" y="166" font-size="42">Enterprises</text>
+  </g>
+</svg>
